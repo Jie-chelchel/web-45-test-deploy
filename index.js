@@ -21,7 +21,7 @@ server.get("/api", (req, res) => {
   res.json({ message: "you rock" });
 });
 server.get("/api/learn", (req, res) => {
-  res.json({ message: "learn more and faster" });
+  res.json({ message: "wakakakkakakaakka" });
 });
 server.listen(port, () => {
   console.log(`listenging on ${port}`);
