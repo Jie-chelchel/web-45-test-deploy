@@ -20,7 +20,9 @@ server.get("/", (req, res) => {
 server.get("/api", (req, res) => {
   res.json({ message: "you rock" });
 });
-
+server.get("/api/learn", (req, res) => {
+  res.json({ message: "learn more and faster" });
+});
 server.listen(port, () => {
   console.log(`listenging on ${port}`);
 });
